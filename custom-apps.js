@@ -1,6 +1,6 @@
 //your list of apps goes below
 let apps = [    
-  {slug: "lucas-de-poap-studio-1", id: "bTEFeQ3CSRb33drUhNEO"},    
+  {slug: "lucas-de-poap-studio-1", id: "gsv3QyAnHMNtgKQNBIeP"},    
   {slug: "mahou-experience-1", id: "uvQShCUSJLFwsOjiq55t"}   
 ];   
 //your list of apps goes above
