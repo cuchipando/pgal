@@ -4,7 +4,7 @@ let apps = [
   {slug: "mahou-experience-1", id: "uvQShCUSJLFwsOjiq55t"}   
 ];   
 //your list of apps goes above
-let currentSlug = window.location.pathname.split("/")[4] || ""; 
+let currentSlug = window.location.pathname.split("/")[3] || ""; 
 let currentApp = apps.find(o => o.slug === currentSlug) || apps[0];   
 let appId = currentApp.id;   
 let script = document.createElement("script");   
