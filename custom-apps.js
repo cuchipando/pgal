@@ -1,5 +1,3 @@
-User
-What does this script do?
 //your list of apps goes below
 let apps = [    
   {slug: "lucas-de-poap-studio-1", id: "gsv3QyAnHMNtgKQNBIeP"},
