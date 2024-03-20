@@ -26,9 +26,3 @@ serviceWorkerLink.download = "progressier.js";
 document.body.appendChild(serviceWorkerLink);
 serviceWorkerLink.click();
 document.body.removeChild(serviceWorkerLink);
-
-// Now, adding the script tag to load the main script
-let script = document.createElement("script");
-let scriptUrl = `https://progressier.app/${appId}/script.js`;
-script.setAttribute("src", scriptUrl);
-document.querySelector('body').appendChild(script);
