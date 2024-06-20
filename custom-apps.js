@@ -1,8 +1,7 @@
 //your list of apps goes below
 let apps = [    
   {slug: "lucas-de-poap-studio-1", id: "OZbbJakbL7SqXQwrmfUa"},
-  {slug: "wow-gala-1", id: "XTngDxIgtm0f1PrSIbb4"},
-  {slug: "rug-radio-1", id: "AiO3rk2BPaD3xxlbaEIk"}
+  {slug: "seg3-london-1", id: "SXwHU5KY2miL1ru7PBVH"}
 ];   
 //your list of apps goes above
 let currentSlug = window.location.pathname.split("/")[4] || ""; 
