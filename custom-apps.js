@@ -6,9 +6,10 @@ let apps = [
 ];   
 //your list of apps goes above
 let currentSlug = window.location.pathname.split("/")[4] || ""; 
-let currentApp = apps.find(o => o.slug === currentSlug) || apps[0];   
-let appId = currentApp.id;   
-let script = document.createElement("script");   
-let scriptUrl = "https://progressier.app/"+appId+"/script.js";   
-script.setAttribute("src", scriptUrl);   
-document.querySelector('body').appendChild(script);
+let currentApp = apps.find(o => o.slug === currentSlug); // removed the defaulting to apps[0]
+if (currentApp) {
+  let appId = currentApp.id;   
+  let script = document.createElement("script");   
+  let scriptUrl = "https://progressier.app/"+appId+"/script.js";   
+  script.setAttribute("src", scriptUrl);   
+  document.querySelector('body').appendChild(script);
