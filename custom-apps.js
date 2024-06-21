@@ -8,7 +8,7 @@ let apps = [
 
 try {
   // Capture the current slug from the URL
-  let currentSlug = window.location.pathname.split("/")[4] || ""; 
+  let currentSlug = window.location.pathname.split("/")[3] || ""; 
   console.log("Current Slug: ", currentSlug);
 
   // Find the app that matches the current slug
