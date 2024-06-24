@@ -1,8 +1,6 @@
 // Your list of apps goes below
 let apps = [    
-  {slug: "lucas-de-poap-studio-1", id: "OZbbJakbL7SqXQwrmfUa"},
-  {slug: "seg3-london-1", id: "SXwHU5KY2miL1ru7PBVH"},
-  {slug: "nft-fest-brussels-1", id: "YqRrgpRYoUYZoyn1eKFy"}
+  {slug: "lucas-de-poap-studio-1", id: "OZbbJakbL7SqXQwrmfUa"}
 ];   
 // Your list of apps goes above
 
