@@ -4,13 +4,13 @@ let apps = [
   {slug: "mercedes-benz-consulting-20-1", id: "u2AkGwcEUNOVg3CjB6ZP"},
   {slug: "merge-madrid-1", id: "w7wKQFv6wdZbMX432y14"},
   {slug: "linea-1", id: "KpqJ5VTW2vZgSAozZsSK"}
-  
 ];   
 // Your list of apps goes above
 
 try {
-  // Capture the current slug from the URL
-  let currentSlug = window.location.pathname.split("/")[3] || ""; 
+  // Capture the current slug dynamically based on the URL structure
+  let pathParts = window.location.pathname.split("/");
+  let currentSlug = pathParts.includes("collection") ? pathParts[2] : pathParts[3]; 
   console.log("Current Slug: ", currentSlug);
 
   // Find the app that matches the current slug
@@ -31,3 +31,4 @@ try {
 } catch (error) {
   console.error("An error occurred: ", error);
 }
+
