@@ -3,7 +3,8 @@ let apps = [
   {slug: "lucas-de-poap-studio-1", id: "OZbbJakbL7SqXQwrmfUa"},
   {slug: "mercedes-benz-consulting-20-1", id: "u2AkGwcEUNOVg3CjB6ZP"},
   {slug: "merge-madrid-1", id: "w7wKQFv6wdZbMX432y14"},
-  {slug: "linea-1", id: "KpqJ5VTW2vZgSAozZsSK"}
+  {slug: "linea-1", id: "KpqJ5VTW2vZgSAozZsSK"},
+  {slug: "mantle-1", id: "w2DFEQDbzRCpJd64Vdrv"}
 ];   
 // Your list of apps goes above
 
